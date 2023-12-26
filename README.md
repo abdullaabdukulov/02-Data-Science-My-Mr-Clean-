@@ -1,4 +1,4 @@
-# Welcome to my Mr_clean project
+# Welcome to My Mr Clean project
 
 ## Task
 - Get some article from Wikipedia to work with.
