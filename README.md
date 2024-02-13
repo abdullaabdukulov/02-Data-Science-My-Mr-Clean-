@@ -41,3 +41,5 @@ We need `Matplotlib` to output the diagram
 If you have any questions, you can contact me by mail
 
 >mirabbosminavarov@gmail.com
+
+<img src='a.png'>
