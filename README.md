@@ -1,8 +1,19 @@
-# Scrapping WEB site wikipedia
+# My_Mr_Clean
 
-## In this code, more precisely, in jupyter note book, I fixed everything, added all the necessary functions and supplemented them with small lambda functions, added more stop words for accuracy, turned them into json format and made them in lowercase for equality and for accuracy of calculations
+## Task
 
-## I'll leave all the necessary libraries for this code at the bottom for convenience
+The task is to take the content of this site [URl](https://en.wikipedia.org/wiki/Ozone_layer) and display the top 20 most frequently used words
+
+## Description
+
+This code takes the content of this site using the function `def get_content(name)`, and starts cleaning it from unnecessary characters such as `(r'\[\[.*?\]\]|\{.*?\}|<.*?>', '')` to an empty line
+using the `def merge_contents(data)` function. After that, we sort our text `def words_sort(param)`.
+Using `def tokenize(param)` function. We once again clear our site of commas and articles from the English language and translate all this into lower letters for counting with the `def lower_collection(param)` function. We translate our text into json format `def count_frequency(collection`) and read the most frequently used words using the `def print_most_frequent(frequencies, n)` function.
+And the simplest thing remains, just display it all in a diagram `def matplotlib(cleaned_list, top_n)`.
+
+## Installation
+
+For this program to work correctly you need to install these libraries
 
 ``` python
     pip3 install ssl
@@ -23,8 +34,8 @@ We need `Matplotlib` to output the diagram
 `Numpy` For convenience
 `Nltk` for stop words
 
-## Info
+## Help
 
-`
-Each function was added and fixed by me personally. The previous code had some flaws with the functions, but in this code everything works as clearly as possible
-`
+If you have any questions, you can contact me by mail
+
+>mirabbosminavarov@gmail.com
