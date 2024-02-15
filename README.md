@@ -34,6 +34,12 @@ We need `Matplotlib` to output the diagram
 `Numpy` For convenience
 `Nltk` for stop words
 
+## Usage
+
+How to use this file. I would suggest downloading the `py.py` file as there you can enter the names of the wikipedia site and sort it as you wish.
+
+So ok let's get started! To begin with, we check for the presence of the necessary libraries and launch them using the `Shift + Enter` combination; if no errors occur, then everything is fine, the next step is to simply press `Shift + Enter` the code automatically works and displays the top 20 words in this site.
+
 ## Help
 
 
